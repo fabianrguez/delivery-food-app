@@ -1,0 +1,56 @@
+.icon {
+  @include icon-styles();
+}
+
+.icon-exit {
+  &:before {
+    content: $icon-exit;
+  }
+}
+
+.icon-card {
+  &:before {
+    content: $icon-card;
+  }
+}
+.icon-cart {
+  &:before {
+    content: $icon-cart;
+  }
+}
+
+.icon-heart {
+  &:before {
+    content: $icon-heart;
+  }
+}
+
+.icon-home {
+  &:before {
+    content: $icon-home;
+  }
+}
+
+.icon-marker {
+  &:before {
+    content: $icon-marker;
+  }
+}
+
+.icon-menu {
+  &:before {
+    content: $icon-menu;
+  }
+}
+
+.icon-order {
+  &:before {
+     content: $icon-order;
+  }
+}
+
+.icon-settings {
+  &:before {
+    content: $icon-settings;
+  }
+}

@@ -1,0 +1,39 @@
+.dfa {
+  &-home {
+    display: flex;
+    flex-direction: column;
+
+    &__location {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 3px;
+      width: 100%;
+      border-radius: 30px;
+      background: $light-grey;
+      position: relative;
+      border: 1px solid $black;
+
+      .icon {
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        transform: translateY(-50%);
+      }
+
+      input {
+        width: 100%;
+        border: none;
+        outline: 0;
+        padding: 7px;
+        border-radius: inherit;
+        text-align: center;
+        background: transparent;
+      }
+    }
+
+    &__greeting {
+      margin-top: 16px;
+    }
+  }
+}

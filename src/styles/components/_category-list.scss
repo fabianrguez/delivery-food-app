@@ -1,0 +1,16 @@
+.dfa {
+  &-category-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+
+    &__items {
+      display: flex;
+      overflow: scroll;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+  }
+}

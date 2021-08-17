@@ -1,3 +1,5 @@
+import SearchBox from '../../components/SearchBox/SearchBox';
+
 const Home = () => {
   return (
     <div className="dfa-home">
@@ -9,6 +11,7 @@ const Home = () => {
         <h3 className="dfa-home__greeting-name">Hola, Batman</h3>
         <h1 className="dfa-home__greeting-general">Buenos días</h1>
       </div>
+      <SearchBox/>
     </div>
   );
 }

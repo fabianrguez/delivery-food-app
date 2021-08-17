@@ -54,3 +54,9 @@
     content: $icon-settings;
   }
 }
+
+.icon-search {
+  &:before {
+    content: $icon-search;
+  }
+}

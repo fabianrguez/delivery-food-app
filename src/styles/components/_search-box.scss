@@ -1,0 +1,31 @@
+.dfa {
+  &-search-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $light-grey;
+    height: 40px;
+    border-radius: 30px;
+    padding: 0 16px;
+
+    input {
+      flex: 1 1 auto;
+      background: transparent;
+      padding: 0 8px;
+    }
+
+    &__container {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+    }
+
+    &__settings {
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      margin-left: 20px;
+      color: $grey;
+    }
+  }
+}

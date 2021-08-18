@@ -1,0 +1,55 @@
+.dfa {
+  &-card {
+    display: flex;
+    background: $white;
+    box-shadow: 0 0 20px -7px rgba(0, 0, 0, 0.2);
+    padding: 26px;
+    border-radius: 15px;
+
+    &__image {
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+
+      img {
+        height: inherit;
+        width: inherit;
+        border-radius: inherit;
+        object-fit: contain;
+      }
+    }
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      flex: 1;
+      margin-left: 30px;
+
+      &-title, &-subtitle {
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 25.5px;
+      }
+
+      &-subtitle {
+        color: $lighter-grey;
+      }
+
+      &-price {
+        margin-top: 5px;
+
+        &-actual, &-previous {
+          font-size: 17px;
+          line-height: 25.5px;
+        }
+
+        &-actual {
+          margin-right: 13px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}

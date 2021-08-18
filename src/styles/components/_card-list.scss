@@ -1,0 +1,10 @@
+.dfa {
+  &-card-list {
+    &__items {
+      display: flex;
+      flex-direction: column;
+      gap: 15px 0;
+      margin-top: 12px;
+    }
+  }
+}

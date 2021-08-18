@@ -5,9 +5,10 @@
     align-items: center;
     justify-content: space-between;
     max-height: 125px;
+    min-height: 125px;
     min-width: 75px;
     max-width: 75px;
-    padding: 16px;
+    padding: 10px 16px 12px;
     border-radius: 50px;
     background: $white;
     box-shadow: 0 0 20px -7px rgba(0, 0, 0, 0.2);

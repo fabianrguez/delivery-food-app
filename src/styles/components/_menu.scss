@@ -1,0 +1,62 @@
+.dfa {
+  &-menu {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: $orange;
+    height: 100%;
+    width: 100%;
+
+    &__content {
+      margin-top: 45px;
+      padding: 10px 20px;
+
+      &-user {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        &-thumbnail {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 37px;
+          width: 37px;
+          background: #f6f6f6;
+          border-radius: 50%;
+
+          img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+          }
+        }
+
+        &-name {
+          margin-left: 10px;
+          max-width: 70px;
+          font-size: 17px;
+          line-height: 16px;
+        }
+      }
+
+      &-nav-items {
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+        max-width: 120px;
+      }
+
+      &-nav-item {
+        padding: 8px 0;
+
+        a {
+          display: grid;
+          grid-template-columns: 30px 1fr;
+          align-items: center;
+        }
+      }
+    }
+  }
+}

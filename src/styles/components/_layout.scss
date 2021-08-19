@@ -1,0 +1,12 @@
+.dfa {
+  &-layout {
+    transform: translateX(0) scale(1);
+    transition: all 0.4s ease-in-out;
+    background: $white;
+
+    &.open {
+      transform: translateX(140px) scale(0.90);
+      border-radius: 40px;
+    }
+  }
+}

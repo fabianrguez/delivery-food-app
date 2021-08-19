@@ -5,6 +5,7 @@
     box-shadow: 0 0 20px -7px rgba(0, 0, 0, 0.2);
     padding: 26px;
     border-radius: 15px;
+    position: relative;
 
     &__image {
       height: 100px;
@@ -49,7 +50,19 @@
           margin-right: 13px;
           font-weight: 600;
         }
+
+        &-previous {
+          color: $lighter-grey;
+          text-decoration: line-through;
+        }
       }
+    }
+
+    .icon-heart {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      color: $orange;
     }
   }
 }

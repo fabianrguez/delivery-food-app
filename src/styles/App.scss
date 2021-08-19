@@ -7,12 +7,15 @@
 @import './base/icons';
 
 // components styles
+@import './components/app';
 @import './components/header';
 @import './components/search-box';
 @import './components/category-list';
 @import './components/category-item';
 @import './components/card-list';
 @import './components/card';
+@import './components/menu';
+@import './components/layout';
 
 //pages styles
 @import './pages/home';

@@ -14,6 +14,7 @@ const Card = ({ title, subtitle, image, price, previousPrice, liked }) => {
           <span className="dfa-card__content-price-previous">${ previousPrice }</span>
         </div>
       </div>
+      <i aria-hidden="true" className="icon icon-heart"></i>
     </div>
   );
 }

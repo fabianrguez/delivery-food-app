@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+html,
+body,
+#root,
+.dfa-app {
+  height: 100%;
+}
+
 main {
   padding: 0 20px;
 }

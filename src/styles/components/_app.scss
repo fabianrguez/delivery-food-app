@@ -1,6 +1,9 @@
 .dfa {
   &-app {
     position: relative;
-    overflow: hidden;
+
+    &--menu-open {
+      overflow: hidden;
+    }
   }
 }

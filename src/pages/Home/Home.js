@@ -37,7 +37,8 @@ const Home = () => {
       price: 10,
       previousPrice: 15,
       image: 'https://cdn7.kiwilimon.com/recetaimagen/13003/640x426/th5-640x426-5707.jpg.webp',
-      liked: true
+      liked: true,
+      productUrl: '/product/123'
     },
     {
       name: 'Sushi Ninja Roll',
@@ -45,7 +46,8 @@ const Home = () => {
       price: 20,
       previousPrice: 25,
       image: 'https://cdn7.kiwilimon.com/recetaimagen/13003/640x426/th5-640x426-5707.jpg.webp',
-      liked: false
+      liked: false,
+      productUrl: '/product/123'
     },
     {
       name: 'Burger Metropolis',
@@ -53,7 +55,8 @@ const Home = () => {
       price: 12,
       previousPrice: 15,
       image: 'https://cdn7.kiwilimon.com/recetaimagen/13003/640x426/th5-640x426-5707.jpg.webp',
-      liked: true
+      liked: true,
+      productUrl: '/product/123'
     },
   ]);
 

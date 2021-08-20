@@ -1,6 +1,8 @@
-const Card = ({ title, subtitle, image, price, previousPrice, liked }) => {
+import { Link } from 'react-router-dom';
+
+const Card = ({ title, subtitle, image, price, previousPrice, urlTo }) => {
   return (
-    <div className="dfa-card">
+    <Link to={ urlTo } className="dfa-card">
       <div className="dfa-card__image">
         <img src={ image } alt={ title }/>
       </div>
@@ -15,7 +17,7 @@ const Card = ({ title, subtitle, image, price, previousPrice, liked }) => {
         </div>
       </div>
       <i aria-hidden="true" className="icon icon-heart"></i>
-    </div>
+    </Link>
   );
 }
 

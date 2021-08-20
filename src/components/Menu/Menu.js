@@ -1,31 +1,37 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-const Menu = ({ open, userPhoto }) => {
+const Menu = ({ open, userPhoto, toggleMenu }) => {
   const [ menuItems ] = useState([
     {
       icon: 'home',
-      label: 'Inicio'
+      label: 'Inicio',
+      to: '/'
     },
     {
       icon: 'cart',
-      label: 'Mi carrito'
+      label: 'Mi carrito',
+      to: '/'
     },
     {
       icon: 'order',
-      label: 'Pedidos'
+      label: 'Pedidos',
+      to: '/'
     },
     {
       icon: 'heart',
-      label: 'Favoritos'
+      label: 'Favoritos',
+      to: '/'
     },
     {
       icon: 'card',
-      label: 'Pagos'
+      label: 'Pagos',
+      to: '/'
     },
     {
       icon: 'exit',
-      label: 'Salir'
+      label: 'Salir',
+      to: '/'
     },
   ])
   return (
@@ -39,9 +45,9 @@ const Menu = ({ open, userPhoto }) => {
         </div>
         <ul className="dfa-menu__content-nav-items">
           {
-            menuItems && menuItems.map(({ label, icon }) => (
+            menuItems && menuItems.map(({ label, icon, to }) => (
                 <li key={ label } className="dfa-menu__content-nav-item">
-                  <Link href="#">
+                  <Link to={ to } onClick={ toggleMenu }>
                     <i className={ `icon icon-${ icon }` }></i>
                     <span>{ label }</span>
                   </Link>

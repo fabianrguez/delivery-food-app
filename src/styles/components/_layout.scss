@@ -7,6 +7,8 @@
     &.open {
       transform: translateX(140px) scale(0.90);
       border-radius: 40px;
+      overflow: hidden;
+      max-height: 100vh;
     }
   }
 }

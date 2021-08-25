@@ -7,6 +7,7 @@
     height: 40px;
     border-radius: 30px;
     padding: 0 16px;
+    flex: 1;
 
     input {
       flex: 1 1 auto;
@@ -17,6 +18,7 @@
     &__container {
       display: flex;
       align-items: center;
+      justify-content: space-between;
       margin-top: 10px;
     }
 
